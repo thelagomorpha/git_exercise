@@ -1,16 +1,16 @@
 class Calculator: 
-    def add(self, ciki, b): 
-        return ciki + b 
-    def subtract(self, ciki, b): 
-        return ciki - b 
-    def multiply(self, ciki, b): 
-        return ciki * b 
-    def divide(self, ciki, b): 
-        return ciki / b 
-    def modulo(self, ciki, b): 
-        return ciki % b 
-    def power(self, ciki, b): 
-        return ciki ** b 
+    def add(self, y, z): 
+        return y + z 
+    def subtract(self, y, z): 
+        return y - z 
+    def multiply(self, y, z): 
+        return y * z 
+    def divide(self, y, z): 
+        return y / z 
+    def modulo(self, y, z): 
+        return y % z 
+    def power(self, y, z): 
+        return y ** z 
     
 if __name__ == "__main__": 
     calc = Calculator() 
