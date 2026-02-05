@@ -10,7 +10,7 @@ class Calculator:
     def modulo(self, a, b): 
         return a % bagi 
     def power(self, a, b): 
-        return a ** bagi 
+        return a * bagi 
     
 if __name__ == "__main__": 
     calc = Calculator() 
